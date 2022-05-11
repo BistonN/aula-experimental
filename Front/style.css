@@ -1,0 +1,64 @@
+h3, hr, body {
+    margin: 0;
+}
+
+body {
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    /* background-color: red; */
+    width: 400px;
+    height: 320px;
+
+
+    text-align: center;
+    justify-content: center;
+
+    border: 1px solid white;
+    border-radius: 7px;
+
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.1);
+}
+
+h3 {
+  text-align: center;
+  padding: 10px;
+}
+
+.inputs-login {
+    /* background-color: yellow; */
+    block-size: fit-content;
+    display: inline-block;
+
+    text-align: left;
+    margin-top: 50px;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 30px;
+}
+
+button {
+    margin-top: 10px;
+    background-color: rgb(29, 155, 240);
+    border: 1px white solid;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 10px 25px 10px 25px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.botao-secundario {
+    background-color: rgb(72, 72, 72);
+}
